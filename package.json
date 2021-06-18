@@ -1,0 +1,26 @@
+{
+  "name": "cdn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/init.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "file-type": "^16.3.0",
+    "hasha": "^5.2.2",
+    "helmet": "^4.5.0",
+    "mongoose": "^5.12.5",
+    "multer": "^1.4.2",
+    "node-superfetch": "^0.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/init.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
