@@ -138,5 +138,4 @@ app.get('/:id', async (req, res, next) => {
 
 datebase.finish().then(() => app.listen(process.env.PORT || process.env.port || 3000, () => {
     console.log('Server on port', process.env.PORT || process.env.port || 3000)
-	datebase.db[1].fileData.find({ type: 'mp4' }, 'id createdAt').sort({ 'createdAt': -1 }).limit(1).exec().then(data => console.log(data))
 }))
